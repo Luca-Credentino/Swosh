@@ -5,13 +5,14 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class MainActivity : AppCompatActivity() {
+class leagueactiviy : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_leagueactiviy)
     }
-    fun nextpage(view: View) {
-        val intent= Intent(this,leagueactiviy::class.java)
-        startActivity(intent)
+
+    fun nextpage2(view: View) {
+        val intent2=Intent(this,whoareuactivity2::class.java)
+        startActivity(intent2)
     }
 }
